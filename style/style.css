@@ -1,5 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Shrikhand&display=swap');
+
 * {
     padding: 0;
     border: 0;
     margin: 0;
+
+    box-sizing: border-box;
+    
+    font-family: "Belleza", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+
+    color: #cAf0f8;
 }
+
+body {
+    background: #03045E;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 2rem;
+    font-family: "Shrikhand", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    font-size: 1rem;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    
+    gap: 1.5rem;
+
+    width: 99%;
+
+    list-style: none;
+    padding: 0;
+}
+
+.conteudo {
+    /*background-color: aqua;*/
+
+    width: clamp(250px, 90vw, 850px);
+    height: 80vh;
+    margin: 10vh 0;
+}
+
+.perfil {
+    width: 100%;
+    height: 35%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.perfil img {
+    width: 20%;
+    border-radius: 15px;
+}
+
+.botoes-principais {
+    background-color: #023E8A;
+
+    width: 100%;
+    height: 40%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 20px;
+}
+
+.botoes-principais a {
+    background-color: #0077B6;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 15px;
+    padding: 1.2rem 2rem;
+
+    font-size: 1.5rem;
+    text-decoration: none;
+
+    position: relative;
+}
+
+.botoes-principais img {
+    position: absolute;
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 42px;
+}
+
+.botoes-secundarios {
+    background-color: chocolate;
+
+    width: 100%;
+    height: 15%;
+}
+
+
