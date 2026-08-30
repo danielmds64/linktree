@@ -5,11 +5,12 @@
 
     box-sizing: border-box;
 
-    color: #cAf0f8;
+    
 }
 
 body {
-    background: #03045E;
+    background: #16425B;
+    color: #D9DCD6;
 
     display: flex;
     flex-direction: column;
@@ -58,10 +59,11 @@ p {
 }
 
 .botoes-principais {
-    background-color: #023E8A;
+    background-color: #3A7CA5;
 
     width: 100%;
     padding: 1.5rem;
+    margin-top: -1.5rem;
 
     display: flex;
     flex-direction: column;
@@ -83,8 +85,9 @@ p {
 }
 
 .botoes-principais a {
-    background-color: #0077B6;
-    
+    background-color: #D9DCD6;
+    color: #16425B;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -110,12 +113,12 @@ p {
 }
 
 .botoes-secundarios {
-    background-color: #023E8A;
+    background-color: #3A7CA5;
     display: flex;
     justify-content: center;
 
     width: 100%;
-    padding: 1.5rem;
+    padding: 1rem;
     border-radius: 20px;
 }
 
