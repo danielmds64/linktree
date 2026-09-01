@@ -124,6 +124,28 @@ p {
     position: relative;
 }
 
+.botoes-principais a .texto-hover,
+.botoes-principais a .texto-copiado {
+    display: none;
+}
+
+.botoes-principais a:hover .texto-padrao {
+    display: none;
+}
+
+.botoes-principais a:hover .texto-hover {
+    display: inline;
+}
+
+.botoes-principais a.copiado .texto-padrao,
+.botoes-principais a.copiado .texto-hover {
+    display: none;
+}
+
+.botoes-principais a.copiado .texto-copiado {
+    display: inline;
+}
+
 .botoes-principais img {
     position: absolute;
     left: 1rem;
@@ -157,5 +179,3 @@ p {
 .botoes-secundarios img {
     width: 50px;
 }
-
-

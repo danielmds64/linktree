@@ -1,0 +1,22 @@
+const discordBtn = document.querySelector("#discord-btn");
+const emailBtn = document.querySelector("#email-btn");
+
+function copiarTexto(texto, botao, evento) {
+    evento.preventDefault();
+
+    navigator.clipboard.writeText(texto).then(() => {
+        botao.classList.add("copiado");
+
+        setTimeout(() => {
+            botao.classList.remove("copiado");
+        }, 2000);
+    });
+}
+
+discordBtn.addEventListener("click", (evento) => {
+    copiarTexto("danielmds64", discordBtn, evento);
+});
+
+emailBtn.addEventListener("click", (evento) => {
+    copiarTexto("daniel.mds2008@gmail.com", emailBtn, evento);
+});
