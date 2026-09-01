@@ -218,3 +218,13 @@ footer a {
         flex: none;
     }
 }
+
+@media (max-width: 576px) {
+    .botoes-principais a:hover:not(.copiado) .texto-padrao {
+        display: inline;
+    }
+
+    .botoes-principais a:hover:not(.copiado) .texto-hover {
+        display: none;
+    }
+}
