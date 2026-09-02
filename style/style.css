@@ -49,13 +49,8 @@ footer {
 }
 
 footer p {
-    margin-bottom: 1rem;
+    margin-top: 0.5rem;
     font-size: 0.8rem;
-}
-
-footer a {
-    font-size: 0.6rem;
-    color: #D9DCD6;
 }
 
 .conteudo {
@@ -156,13 +151,14 @@ footer a {
     display: inline;
 }
 
-.botoes-principais img {
+.botoes-principais .icone-principal {
     position: absolute;
     left: 1rem;
     top: 50%;
     transform: translateY(-50%);
 
     width: 42px;
+    fill: #16425B;
 }
 
 .botoes-secundarios {
