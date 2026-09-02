@@ -125,6 +125,10 @@ footer p {
     box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.3);
 }
 
+.botoes-principais a:hover {
+    background-color: #F7F8F6;
+}
+
 .botoes-principais a span {
     color: #16425B;
 }
@@ -205,7 +209,12 @@ footer p {
 
     border-radius: 100%;
 
+    opacity: 0.8;
     box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.3);
+}
+
+.botoes-secundarios img:hover {
+    opacity: 1;
 }
 
 
@@ -215,6 +224,10 @@ footer p {
     }
 
     .botoes-principais a:hover:not(.copiado) .texto-hover {
+        display: none;
+    }
+
+    .botoes-principais a:hover:not(.copiado) .icone-copiar {
         display: none;
     }
 }
