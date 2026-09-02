@@ -115,7 +115,7 @@ footer p {
     width: 95%;
     margin: 0 auto;
     padding: 1.3rem 2rem;
-    border-radius: 15px;
+    border-radius: 16px;
 
     font-size: 1.5rem;
     text-decoration: none;
@@ -130,7 +130,8 @@ footer p {
 }
 
 .botoes-principais a .texto-hover,
-.botoes-principais a .texto-copiado {
+.botoes-principais a .texto-copiado,
+.botoes-principais a .icone-copiar {
     display: none;
 }
 
@@ -138,12 +139,14 @@ footer p {
     display: none;
 }
 
-.botoes-principais a:hover .texto-hover {
+.botoes-principais a:hover .texto-hover,
+.botoes-principais a:hover .icone-copiar {
     display: inline;
 }
 
 .botoes-principais a.copiado .texto-padrao,
-.botoes-principais a.copiado .texto-hover {
+.botoes-principais a.copiado .texto-hover,
+.botoes-principais a.copiado .icone-copiar {
     display: none;
 }
 
@@ -157,8 +160,20 @@ footer p {
     top: 50%;
     transform: translateY(-50%);
 
-    width: 42px;
+    width: 3rem;
     fill: #16425B;
+}
+
+.botoes-principais .wrapper-texto {
+    display: flex;
+    flex-direction: row;
+}
+
+.botoes-principais .icone-copiar {
+    margin-right: 5px;
+    width: 1rem;
+
+    fill: #0e2b3b;
 }
 
 .botoes-secundarios {
