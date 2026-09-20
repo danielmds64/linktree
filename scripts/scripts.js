@@ -18,5 +18,5 @@ discordBtn.addEventListener("click", (evento) => {
 });
 
 emailBtn.addEventListener("click", (evento) => {
-    copiarTexto("daniel.mds2008@gmail.com", emailBtn, evento);
+    copiarTexto("danielmds64@pm.me", emailBtn, evento);
 });
