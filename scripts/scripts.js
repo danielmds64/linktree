@@ -13,10 +13,6 @@ function copiarTexto(texto, botao, evento) {
     });
 }
 
-discordBtn.addEventListener("click", (evento) => {
-    copiarTexto("danielmds64", discordBtn, evento);
-});
-
 emailBtn.addEventListener("click", (evento) => {
     copiarTexto("danielmds64@pm.me", emailBtn, evento);
 });
